@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GameStates">
+      <UniqueIdentifier>{b3c3a53a-a625-41c9-bce0-a96df846b69b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStates\Levels">
+      <UniqueIdentifier>{da4e14b9-99e7-41b1-8163-216b88762291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStates\Base States">
+      <UniqueIdentifier>{2de96d44-1337-424d-836a-248c7d592c74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStates">
+      <UniqueIdentifier>{1b163d02-137d-4e86-8fb2-091ddc5bb770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStates\Levels">
+      <UniqueIdentifier>{8c8fb5a8-2f12-4d7b-92f2-274e81f30082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStates\Base States">
+      <UniqueIdentifier>{fb8ad4d5-733f-4613-a676-b6b300db63e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Plugins">
+      <UniqueIdentifier>{48a5647e-7109-43f4-84de-eb3850a20b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Characters">
+      <UniqueIdentifier>{6ab97a60-b44c-4379-9b37-55d4462f707d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Plugins">
+      <UniqueIdentifier>{9b9c8efd-19f9-442f-be35-af2370bb8894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Characters">
+      <UniqueIdentifier>{f187c5d0-0101-463d-b21b-2233d6d2cfd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Plugins\Menus">
+      <UniqueIdentifier>{856cb90e-2f83-41a1-90ba-7e077329ba74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Plugins\Menus">
+      <UniqueIdentifier>{2a61111e-97d6-4362-82d3-4337d548aa0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Plugins\Viewers">
+      <UniqueIdentifier>{e80e39e1-f5f6-4bfc-af2d-2981abf1b17e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Plugins\Viewers">
+      <UniqueIdentifier>{30f01f9f-9715-450f-bdb1-d639621467b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Splash.cpp">
+      <Filter>Source Files\GameStates\Base States</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Intro.cpp">
+      <Filter>Source Files\GameStates\Base States</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Pause.cpp">
+      <Filter>Source Files\GameStates\Base States</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameRate.cpp">
+      <Filter>Source Files\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Source Files\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenerator.cpp">
+      <Filter>Source Files\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Source Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu2.cpp">
+      <Filter>Source Files\Plugins\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu3.cpp">
+      <Filter>Source Files\Plugins\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicViewer.cpp">
+      <Filter>Source Files\Plugins\Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticViewer.cpp">
+      <Filter>Source Files\Plugins\Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_2.cpp">
+      <Filter>Source Files\GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="SetOfVillagers.cpp">
+      <Filter>Source Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Villager.cpp">
+      <Filter>Source Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_0.cpp">
+      <Filter>Source Files\GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_1.cpp">
+      <Filter>Source Files\GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_3.cpp">
+      <Filter>Source Files\GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_4.cpp">
+      <Filter>Source Files\GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="BossStage.cpp">
+      <Filter>Source Files\GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Dragon.cpp">
+      <Filter>Source Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBall.cpp">
+      <Filter>Source Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="states.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Splash.h">
+      <Filter>Header Files\GameStates\Base States</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Intro.h">
+      <Filter>Header Files\GameStates\Base States</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Pause.h">
+      <Filter>Header Files\GameStates\Base States</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameRate.h">
+      <Filter>Header Files\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Header Files\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenerator.h">
+      <Filter>Header Files\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu2.h">
+      <Filter>Header Files\Plugins\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu3.h">
+      <Filter>Header Files\Plugins\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticViewer.h">
+      <Filter>Header Files\Plugins\Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicViewer.h">
+      <Filter>Header Files\Plugins\Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_2.h">
+      <Filter>Header Files\GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Villager.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="SetOfVillagers.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_0.h">
+      <Filter>Header Files\GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_1.h">
+      <Filter>Header Files\GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_3.h">
+      <Filter>Header Files\GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_4.h">
+      <Filter>Header Files\GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="BossStage.h">
+      <Filter>Header Files\GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBall.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Dragon.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

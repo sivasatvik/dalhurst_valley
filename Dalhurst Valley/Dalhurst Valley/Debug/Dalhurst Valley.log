@@ -1,0 +1,8 @@
+﻿  main.cpp
+c:\users\goutham\documents\github\dalhurst_valley\dalhurst valley\dalhurst valley\common.h(24): warning C4091: 'extern ': ignored on left of 'GameStates' when no variable is declared
+c:\users\goutham\documents\github\dalhurst_valley\dalhurst valley\dalhurst valley\menu2.h(6): warning C4005: 'MAX_NUM_OF_ITEMS': macro redefinition
+  c:\users\goutham\documents\github\dalhurst_valley\dalhurst valley\dalhurst valley\menu3.h(5): note: see previous definition of 'MAX_NUM_OF_ITEMS'
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(638,5): warning MSB8015: Forcing a rebuild of all source files due to the contents of "C:\Users\Goutham\Documents\GitHub\dalhurst_valley\Dalhurst Valley\Dalhurst Valley\Debug\Dalhurst Valley.tlog\link.command.1.tlog" being invalid.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(638,5): warning MSB8015: Forcing a rebuild of all source files due to the contents of "C:\Users\Goutham\Documents\GitHub\dalhurst_valley\Dalhurst Valley\Dalhurst Valley\Debug\Dalhurst Valley.tlog\link.command.1.tlog" being invalid.
+  Dalhurst Valley.vcxproj -> C:\Users\Goutham\Documents\GitHub\dalhurst_valley\Dalhurst Valley\Debug\Dalhurst Valley.exe
+  Dalhurst Valley.vcxproj -> C:\Users\Goutham\Documents\GitHub\dalhurst_valley\Dalhurst Valley\Debug\Dalhurst Valley.pdb (Full PDB)
